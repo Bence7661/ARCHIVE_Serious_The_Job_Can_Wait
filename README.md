@@ -16,9 +16,9 @@ All vanilla anomaly tasks are accounted for (in theory)
 - Bounty
 - Spy extraction
 - Assault
-- Bounty
+- Delivery
+- Guide
 - Anomaly measurement?!
 
 ## Installation
-Since this is a BETA the mod overwrites a couple of stuff. In the future I will minimize this.
-For now just chuck it at max prio.
+Just chuck it at max prio.
