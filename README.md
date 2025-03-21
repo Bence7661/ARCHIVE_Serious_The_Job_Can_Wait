@@ -21,6 +21,11 @@ All vanilla anomaly tasks are accounted for (in theory)
 - Guide
 - Anomaly measurement?!
 
+iTheon's tasks:
+- Stolen specimen
+- Shakedown
+- Blood Stained Coin
+
 ## Installation
 Just chuck it at max prio.
 
