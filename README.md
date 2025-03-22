@@ -1,5 +1,5 @@
 ## The Job Can Wait  
-v2.0.0
+v2.0.1
 
 Serious industries present to you: You will not get tasks that would require you to venture North before disabling Miracle Machine and Brain Scorcher.
 
@@ -25,6 +25,7 @@ iTheon's tasks:
 - Stolen specimen
 - Shakedown
 - Blood Stained Coin
+- No Step Back (This task is only available in Limansk, but now it won't even show up in PDA tasks before BS)
 
 ## Installation
 Just chuck it at max prio.
