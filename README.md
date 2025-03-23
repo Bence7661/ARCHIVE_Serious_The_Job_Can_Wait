@@ -1,5 +1,5 @@
 ## The Job Can Wait  
-v2.0.1
+v2.0.2
 
 Serious industries present to you: You will not get tasks that would require you to venture North before disabling Miracle Machine and Brain Scorcher.
 
@@ -15,10 +15,12 @@ You have "Story mode" ticked off.
 ## Tasks included
 All vanilla anomaly tasks are accounted for (in theory)
 - Bounty
+  - Capture Enemy Documents
 - Spy extraction
 - Assault
 - Delivery
 - Guide
+- Fate
 - Anomaly measurement?!
 
 iTheon's tasks:
