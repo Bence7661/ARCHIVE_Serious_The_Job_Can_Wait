@@ -20,7 +20,7 @@ All vanilla anomaly tasks are accounted for (in theory)
 - Assault
 - Delivery
 - Guide
-- Fate
+- Fate/Lost Signal
 - Anomaly measurement?!
 
 iTheon's tasks:
