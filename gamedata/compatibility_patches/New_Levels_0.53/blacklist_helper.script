@@ -1,7 +1,7 @@
 local thejobcanwait_mcm_conf = serious_the_job_can_wait_mcm.get_config
 
 local northernMaps = {
-	["l10_limansk"] = true,
+    ["l10_limansk"] = true,
     ["l10_red_forest"] = true,
     ["l10_radar"] = false,
     ["zaton"] = true,
@@ -32,16 +32,16 @@ local guide_before_north = {
     l02_garbage			= {"l01_escape",	"l03_agroprom",		"l04_darkvalley",		"l05_bar",'l06_rostok'},
     l03_agroprom		= {"l02_garbage",	'l08_yantar',		'k00_marsh'},
     l04_darkvalley		= {"l02_garbage",	"k01_darkscape",	'k02_trucks_cemetery'},
-    l05_bar				= {"l02_garbage",	"l06_rostok",		"l07_military",			'k02_trucks_cemetery'},
-    l06_rostok			= {"l08_yantar",	"l05_bar",			'l02_garbage'},
+    l05_bar			= {"l02_garbage",	"l06_rostok",		"l07_military",			'k02_trucks_cemetery'},
+    l06_rostok			= {"l08_yantar",	"l05_bar",		'l02_garbage'},
     l08_yantar			= {"l06_rostok",	"l09_deadcity",		'l03_agroprom'},
     l09_deadcity		= {"l08_yantar",	'l07_military',},
-    k02_trucks_cemetery	= {'l04_darkvalley','l05_bar',			'l07_military'},
+    k02_trucks_cemetery		= {'l04_darkvalley',	'l05_bar',		'l07_military'},
     l07_military		= {"l05_bar",		"l09_deadcity",		'k02_trucks_cemetery'},
     y04_pole			= {"l01_escape",	'l04_darkvalley'},
-	promzona			= {"l07_military", "k02_trucks_cemetery"},
-	grimwood			= {"l07_military"},
-	poselok_ug		    = {"l02_garbage", "l04_darkvalley", "k02_trucks_cemetery", "l07_military"},
+    promzona			= {"l07_military", 	"k02_trucks_cemetery"},
+    grimwood			= {"l07_military"},
+    poselok_ug		        = {"l02_garbage", 	"l04_darkvalley", 	"k02_trucks_cemetery", 		"l07_military"},
 }
 
 local fate_map_blacklist = {
@@ -86,9 +86,9 @@ function GetFateBlacklist()
     return fate_map_blacklist
 end
 
-function GetGuideDestinationsNorth()
-    return guide_before_north
-end
+function GetNorthernMaps()
+    return northernMaps
+end 
 
 xr_conditions.serious_no_step_back_precond = function(actor, npc, p)
     local task_id = p[1]
