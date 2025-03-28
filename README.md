@@ -1,5 +1,5 @@
 ## The Job Can Wait  
-v2.0.3
+v2.1.0
 
 Serious industries present to you: You will not get tasks that would require you to venture North before disabling Miracle Machine and Brain Scorcher.
 
